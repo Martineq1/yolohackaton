@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['demaged-bridge-high', 'demaged-bridge-medium', 'demaged-building-high', 'demaged-building-low', 'demaged-building-medium']
+
+roboflow:
+  workspace: marcin-w-5a1uk
+  project: demage-evaluation
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/marcin-w-5a1uk/demage-evaluation/dataset/4
